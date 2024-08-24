@@ -1,0 +1,72 @@
+.actions{
+    padding: 1em 2em;
+    background-color: #1e213b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.statut{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.statut p{
+    font-weight: 300;
+}
+
+.badge{
+    /* background-color: rgba(0, 255, 169, 0.08);
+    color: #00ffa9; */
+    background-color: rgba(211, 116, 45, 0.08);
+    color: #d86f2d;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em 0.7em;
+    border-radius: 5px;
+    /* f7faf9 pour la couleur bla  00ffa9*/
+}
+
+.badge-point{
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+    /* background-color: #00ffa9; */
+    background-color: #d86f2d;
+}
+
+.button-actions{
+    display: flex;
+    gap: 1em;
+}
+
+.button-actions button,
+ .form-actions button{
+    padding: 1em 2em;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.button-actions button:hover,
+.form-actions button:hover{
+    cursor: pointer;
+    
+}
+
+.btn-red{
+    background-color: #ED565A; /*ee4a4f*/
+}
+
+.btn-violet{
+    background-color: #7b5df9;
+}
+
+.btn-white{
+    background-color: rgba(255, 255, 255, 0.1)
+}

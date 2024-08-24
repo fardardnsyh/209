@@ -1,0 +1,7 @@
+.invoices-list{
+    padding-top: 11em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: rgba(116,83,252, 0.1);
+}

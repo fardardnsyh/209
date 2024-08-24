@@ -1,0 +1,54 @@
+.invoice-container{
+    background-color: #1e213b;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.invoice-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    color: #07cc9e;
+}
+
+.invoice-container ul li{
+   list-style-type: none;
+}
+
+.invoice-container ul li p{
+    font-weight: 200;
+    font-size: 0.9em;
+}
+
+.badge-container{
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+}
+
+.badge{
+    /* background-color: rgba(0, 255, 169, 0.08);
+    color: #00ffa9; */
+    background-color: rgba(211, 116, 45, 0.08);
+    color: #d86f2d;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em 0.7em;
+    border-radius: 5px;
+    /* f7faf9 pour la couleur bla  00ffa9*/
+}
+
+.badge-point{
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+    /* background-color: #00ffa9; */
+    background-color: #d86f2d;
+}
+
+.badge-container a{
+    color: #7b5df9;
+    font-weight: 900;
+}

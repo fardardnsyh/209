@@ -1,0 +1,103 @@
+.street{
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice-form > div{
+    margin-top: 2.5em;
+}
+
+.invoice-form h5{
+    color: #7b5df9;
+}
+
+.invoice-form input{
+    background-color: #1e213b;
+    outline: none;
+    border: 2px solid #252947;
+    padding: 1em;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    font-size: 0.9em;
+    margin-top: 0.7em;
+}
+
+.invoice-form label{
+    font-size: 0.85em;
+    font-weight: 200;
+}
+
+.city-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.adresses-container > div, .client-container > div,
+ .date-container > div, .item-list-header{
+    margin-top: 1.5em;
+}
+
+.dates{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+
+.item-list-header, .item{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1em;
+}
+
+.item-one{
+    grid-column: 1/6;
+}
+
+.item-two{
+    grid-column: 6/8;
+}
+
+.item-three{
+    grid-column: 8/10;
+}
+
+.item-four{
+    grid-column: 10/12;
+}
+
+.item-five{
+    grid-column: 12/13;
+}
+
+.trash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trash i:hover{
+    cursor: pointer;
+}
+
+.item{
+    margin-top: 0.2em;
+}
+
+.form-actions{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.btn-blue{
+    background-color: #1e213b;
+}
+
+.save-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}

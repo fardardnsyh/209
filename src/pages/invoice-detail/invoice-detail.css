@@ -1,0 +1,17 @@
+.detail-header{
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+.detail-header a{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.97);
+    padding-top: 3em;
+}
+
+.detail-header i{
+    color: #7b5df9;
+}

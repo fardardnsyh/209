@@ -1,0 +1,49 @@
+.invoices-header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position: fixed;
+    width: inherit;
+    background-color: #141625;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.invoices-titles p{
+    font-weight: 200;
+    color: #d3d3d3;
+}
+
+.new-invoice{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.filter ion-icon{
+    color: #603bf5;
+}
+
+.new-invoice-button a{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    text-decoration: none;
+    background-color: #7b5df9;
+    padding: 0.5em;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.new-invoice-button a i{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0.5em;
+    color: #7b5df9;
+}

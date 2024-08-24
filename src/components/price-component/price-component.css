@@ -1,0 +1,16 @@
+.price-container-elements{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 0.5em;
+}
+
+.price{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: right;
+}
+
+.strong p{
+    font-weight: 600;
+    color: #fff;
+}
